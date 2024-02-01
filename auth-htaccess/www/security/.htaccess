@@ -1,0 +1,6 @@
+AuthType Basic
+AuthName "Access security folders"
+AuthBasicProvider file
+AuthUserFile "C:\www\users"
+AuthGroupFile "C:\www\groups"
+Require group admin
